@@ -11,6 +11,7 @@ WORKDIR /home/work
 COPY "json_server.py" /home/work
 COPY "read_json.py" /home/work
 COPY "write_json.py" /home/work
+COPY "aws-lambda.py" /home/work
 
 EXPOSE 5000
 
